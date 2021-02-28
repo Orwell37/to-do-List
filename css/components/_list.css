@@ -1,0 +1,102 @@
+.list {
+	margin-top: 1px;
+}
+
+.list-container {
+	position: relative;
+}
+
+.list__folder {
+	padding: 1vmax 0;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.wrap-list__folder {
+	width: 80%;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.folder-image {
+	width: 1.5vmax;
+	height: 1.5vmax;
+}
+
+.nameFolder {
+	font-family: 'Raleway', sans-serif;
+	margin-left: 1vmax;
+	color: var(--brown-color);
+	font-weight: 700;
+}
+
+.checkbox-delete {
+	width: 20%;
+	justify-content: flex-end;
+}
+
+.input {
+	width: 20px;
+	height: 20px;
+	background-color: var(--brown-color);
+}
+
+.list-addClass {
+	width: 22%;
+	padding: 1vmax 0;
+}
+
+.addButton {
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+	align-items: center;
+	font-weight: 700;
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	transition: 0.3s ease-in;
+}
+
+.addClass {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+}
+
+.plus {
+	margin-right: 10px;
+	width: 20px;
+	height: 20px;
+}
+
+.list-addClass:hover .addClass, .list-addClass:hover .plus {
+	fill: var(--white-color);
+	color: var(--white-color);
+	transition: 0.3s ease-in;
+}
+
+.form__title {
+	font-family: 'Raleway', sans-serif;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.form__wrap {
+	justify-content: center;
+}
+
+.form__input {
+	margin-right: 10px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+
+.form__button {
+	border-radius: 4px;
+	box-shadow: 0 4px 16px #ccc;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	border: none;
+	cursor: pointer;
+}
+

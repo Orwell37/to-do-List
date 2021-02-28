@@ -1,0 +1,45 @@
+.userName {
+	margin-top:1px;
+}
+
+.userName__block {
+	padding: 1vmax 0;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.userName-account {
+	align-items: center;
+}
+
+.account-image {
+	background-image: url(../../img/horse.jpg);
+	width: 3vmax;
+	height: 3vmax;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 50%;
+}
+
+.account-name {
+	margin-left: 0.7vmax;
+	font-family: 'NaturalMonoAltRegular';
+	color: var(--white-color);
+}
+
+.userName-button {
+	padding: 0.8vmax 2vmax;
+	font-family: 'Raleway', sans-serif;
+	color: var(--sectionBackground-color);
+	background-color: var(--brown-color);
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: 0.3s ease-in;
+}
+
+.userName-button:hover {
+	background-color: #9E4F4F;
+	transition: 0.3s ease-in;
+}

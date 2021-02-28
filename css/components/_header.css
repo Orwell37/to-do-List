@@ -1,0 +1,8 @@
+
+.header__title {
+	padding: 1vmax 0;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	color: var(--brown-color);
+}
+
